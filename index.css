@@ -1,0 +1,181 @@
+:root{
+    --bgColor: #122834;
+}
+body{
+    overflow: hidden;
+}
+#wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: var(--bgColor);
+    overflow: hidden;
+}
+.controller{
+    position: absolute;
+    width: 235px;
+    height: 302px;
+    bottom: 0;
+    right: 32px;
+    background-image: url(images/controller.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.btnWrapper{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    height: 32px;
+}
+.btnWrapper button{
+    flex-grow: 1;
+    cursor: pointer;
+}
+.controller input[type=range]{
+    position: absolute;
+    top: 155px;
+    left: 35px;
+    width: 160px;
+    opacity: 0;
+    cursor: pointer;
+}
+.controller input[type=range]::-webkit-slider-thumb{
+    transform: scale(20);
+}
+.dots{
+    position: absolute;
+    width: 133px;
+    height: 132px;
+    left: 50px;
+    top: 95px;
+    transform: rotate(-55deg);
+    background-image: url(images/dots.png);
+    background-size: cover;
+    transition: transform 300ms ease-in-out 0s;
+}
+.bg{
+    background-image: url(images/bg-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.logos{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    left: 0;
+}
+.logos::before{
+    content: '';
+    background-image: url(images/logoHarman.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+}
+.logos::after{
+    content: '';
+    background-image: url(images/logoAWS.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+}
+.bg_hover{
+    background-image: url(images/hover_00-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: background-image 300ms linear 0s;
+}
+.bg_hover video, #cardDiv video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#cardFlex{
+    pointer-events: none;
+    opacity: 0;
+    transition: transform 1000ms ease-in 0s, opacity 500ms linear 500ms;
+}
+#cardDiv{
+    position: absolute;
+    width: 90%;
+    aspect-ratio: 16 / 8;
+    border-radius: 3%;
+    backdrop-filter: blur(0);
+    /* backdrop-filter: blur(15px); */
+    transition: backdrop-filter 500ms linear 1500ms;
+}
+#cardDiv video{
+    object-fit: contain;
+}
+#cardDiv #contentImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    transition: opacity 500ms linear 1000ms;
+}
+.cardBTN{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 134px;
+    background-image: url(images/btn_exit-min.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: opacity 150ms linear 0s;
+}
+.cardBTN:hover{
+    opacity: .6;
+}
+.prevBTN{
+    opacity: 0;
+    right: 74px;
+    background-image: url(images/btn_prev-min.png);
+}
+.nextBTN{
+    right: 14px;
+    background-image: url(images/btn_next-min.png);
+}
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(images/hover_02-min.png) url(images/hover_03-min.png) url(images/hover_04-min.png) url(images/hover_05-min.png) url(images/hover_06-min.png) url(images/hover_07-min.png) url(images/hover_08-min.png) url(images/hover_09-min.png);
+ }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harman</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="slider.js"></script>
+    <script src="selection.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="bg"></div>
+        <div class="bg_hover" id="hovers">
+            <video src="" muted autoplay></video>
+        </div>
+        <div class="logos"></div>
+        <div class="controller">
+            <div class="dots" id="controlDot"></div>
+            <input type="range" min="0" max="8" value="0" id="controlSlider" oninput="sliderFunc();"/>
+            <div class="btnWrapper">
+                <button>Vehicle</button>
+                <button onclick="selectFunc();">Select</button>
+                <button onclick="resetFunc();">Reset</button>
+            </div>
+        </div>
+        <div class="flexCenter" id="cardFlex">
+            <div id="cardDiv">
+                <video src="" muted autoplay></video>
+                <div id="contentImg"></div>
+                <div class="cardBTN closeBTN" onclick="closeCard();"></div>
+                <div class="cardBTN prevBTN" onclick="prevCard();"></div>
+                <div class="cardBTN nextBTN" onclick="nextCard();"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
