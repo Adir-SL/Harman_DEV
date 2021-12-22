@@ -27,6 +27,21 @@ function selectFunc(){
     }
 }
 
+function veFunc(){
+    document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
+    document.getElementById("cardFlex").style.pointerEvents = "all";
+    // document.getElementById("cardFlex").style.opacity = "1";
+    document.getElementById("cardFlex").style.transform = "translateY(0)";
+    // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
+
+    document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+    document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+
+    document.getElementById("contentImg").style.backgroundImage = "url(images/vehicle_01-min.png)";
+    document.getElementById("contentImg").style.opacity = "1";
+    nextCount = 4;
+}
+
 function resetFunc(){
     document.getElementById("hovers").style.backgroundImage = "url(images/hover_00-min.png)";
     document.getElementById("hovers").querySelector("video").src = "";
