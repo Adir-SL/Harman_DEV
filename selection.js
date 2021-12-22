@@ -23,7 +23,7 @@ function resetFunc(){
 }
 
 function closeCard(){
-    document.getElementById("cardFlex").style.transform = "translateY(200%)";
+    document.getElementById("cardFlex").style.transform = "translateY(110%)";
     document.getElementById("contentImg").style.opacity = "0";
     
 
