@@ -19,6 +19,12 @@ function selectFunc(){
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 2;
     }
+
+    if(document.getElementById("controlSlider").value == "4"){
+        document.getElementById("contentImg").style.backgroundImage = "url(images/SW_01-min.png)";
+        document.getElementById("contentImg").style.opacity = "1";
+        nextCount = 2;
+    }
 }
 
 function resetFunc(){
