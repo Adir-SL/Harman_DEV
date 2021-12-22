@@ -128,8 +128,8 @@ body{
 #cardFlex{
     pointer-events: none;
     /* opacity: 0; */
-    transform: translateY(200%);
-    transition: transform 1000ms ease-in-out 0s;
+    transform: translateY(110%);
+    transition: transform 500ms ease-in-out 0s;
 }
 #cardDiv{
     position: absolute;
