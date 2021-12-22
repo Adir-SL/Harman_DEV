@@ -25,17 +25,18 @@ function resetFunc(){
 function closeCard(){
     document.getElementById("cardFlex").style.transform = "translateY(110%)";
     document.getElementById("contentImg").style.opacity = "0";
+    document.getElementById("cardFlex").style.pointerEvents = "none";
     
 
-    setTimeout(function(){
-        // document.getElementById("cardDiv").style.backdropFilter = "blur(0)";
-        document.getElementById("cardFlex").style.pointerEvents = "none";
-        // document.getElementById("cardFlex").style.opacity = "0";
-    }, 500);
-    setTimeout(function(){
-        document.getElementById("cardFlex").style.transform = "";
-        document.getElementById("contentImg").style.backgroundImage = "";
-    }, 1000);
+    // setTimeout(function(){
+    //     document.getElementById("cardDiv").style.backdropFilter = "blur(0)";
+        
+    //     document.getElementById("cardFlex").style.opacity = "0";
+    // }, 500);
+    // setTimeout(function(){
+    //     document.getElementById("cardFlex").style.transform = "";
+    //     document.getElementById("contentImg").style.backgroundImage = "";
+    // }, 1000);
 }
 
 function prevCard(){
