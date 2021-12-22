@@ -164,7 +164,7 @@ body{
     transition: opacity 150ms linear 0s;
 }
 .cardBTN:hover{
-    opacity: .6;
+    filter: brightness(200%);
 }
 .prevBTN{
     opacity: 0;
