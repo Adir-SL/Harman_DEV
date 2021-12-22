@@ -66,13 +66,17 @@ function nextCard(){
 function checkBTNs(){
     if(tempCount == 1){
         document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
     }else{
         document.getElementsByClassName("prevBTN")[0].style.opacity = "1";
+        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "all";
     }
 
     if(tempCount == nextCount){
         document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
+        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
     }else{
         document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
     }
 }
