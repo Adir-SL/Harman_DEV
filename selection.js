@@ -13,6 +13,12 @@ function selectFunc(){
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 3;
     }
+
+    if(document.getElementById("controlSlider").value == "7"){
+        document.getElementById("contentImg").style.backgroundImage = "url(images/vehicle_manage_01-min.png)";
+        document.getElementById("contentImg").style.opacity = "1";
+        nextCount = 2;
+    }
 }
 
 function resetFunc(){
