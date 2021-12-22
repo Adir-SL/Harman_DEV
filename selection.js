@@ -11,7 +11,6 @@ function selectFunc(){
     if(document.getElementById("controlSlider").value == "8"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/campaign_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
-
         nextCount = 3;
     }
 }
