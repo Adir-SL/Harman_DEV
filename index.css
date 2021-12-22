@@ -129,7 +129,7 @@ body{
     pointer-events: none;
     /* opacity: 0; */
     transform: translateY(200%);
-    transition: transform 1000ms ease-in 0s, opacity 500ms linear 500ms;
+    transition: transform 1000ms ease-in-out 0s;
 }
 #cardDiv{
     position: absolute;
