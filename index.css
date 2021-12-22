@@ -127,7 +127,8 @@ body{
 }
 #cardFlex{
     pointer-events: none;
-    opacity: 0;
+    /* opacity: 0; */
+    transform: translateY(200%);
     transition: transform 1000ms ease-in 0s, opacity 500ms linear 500ms;
 }
 #cardDiv{
@@ -136,8 +137,8 @@ body{
     aspect-ratio: 16 / 8;
     border-radius: 3%;
     backdrop-filter: blur(0);
-    /* backdrop-filter: blur(15px); */
-    transition: backdrop-filter 500ms linear 1500ms;
+    backdrop-filter: blur(15px);
+    /* transition: all 1500ms linear 0s; */
 }
 #cardDiv video{
     object-fit: contain;

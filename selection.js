@@ -1,8 +1,9 @@
 function selectFunc(){
     document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
     document.getElementById("cardFlex").style.pointerEvents = "all";
-    document.getElementById("cardFlex").style.opacity = "1";
-    document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
+    // document.getElementById("cardFlex").style.opacity = "1";
+    document.getElementById("cardFlex").style.transform = "translateY(0)";
+    // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
 
     document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
     document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
@@ -27,9 +28,9 @@ function closeCard(){
     
 
     setTimeout(function(){
-        document.getElementById("cardDiv").style.backdropFilter = "blur(0)";
+        // document.getElementById("cardDiv").style.backdropFilter = "blur(0)";
         document.getElementById("cardFlex").style.pointerEvents = "none";
-        document.getElementById("cardFlex").style.opacity = "0";
+        // document.getElementById("cardFlex").style.opacity = "0";
     }, 500);
     setTimeout(function(){
         document.getElementById("cardFlex").style.transform = "";
