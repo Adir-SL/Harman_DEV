@@ -169,6 +169,7 @@ body{
 }
 .prevBTN{
     opacity: 0;
+    pointer-events: none;
     right: 74px;
     background-image: url(images/btn_prev-min.png);
 }
