@@ -150,7 +150,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 0;
-    transition: opacity 500ms linear 1000ms;
+    transition: opacity 500ms linear 500ms;
 }
 .cardBTN{
     position: absolute;
