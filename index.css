@@ -50,13 +50,15 @@ body{
 }
 .dots{
     position: absolute;
-    width: 133px;
-    height: 132px;
-    left: 50px;
-    top: 95px;
+    width: 185px;
+    height: 185px;
+    left: 30px;
+    top: 50px;
     transform: rotate(-55deg);
     background-image: url(images/dots.png);
-    background-size: cover;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
     transition: transform 300ms ease-in-out 0s;
 }
 .bg{
