@@ -46,6 +46,7 @@ function resetFunc(){
     document.getElementById("hovers").style.backgroundImage = "url(images/hover_00-min.png)";
     document.getElementById("hovers").querySelector("video").src = "";
     document.querySelector(".dots").style.transform = "rotate(-55deg)";
+    document.getElementById("dotLights").style.backgroundImage = "url(images/dots_none-min.png)";
 }
 
 function closeCard(){
