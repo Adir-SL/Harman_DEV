@@ -31,13 +31,30 @@ body{
     width: 90%;
     margin: 5%;
     display: flex;
-    height: 32px;
+    height: 58px;
 }
 .controlBtn{
     flex-grow: 1;
     cursor: pointer;
-    /* background: red; */
+    background-image: url(images/btn_car-min.png);
+    background-size: cover;
+    background-position: center;
     box-shadow: 0 0 0 2px black inset;
+}
+.controlBtn:hover{
+    background-image: url(images/btn_car_hover-min.png);
+}
+.controlBtn:nth-of-type(2){
+    background-image: url(images/btn_present-min.png);
+}
+.controlBtn:nth-of-type(2):hover{
+    background-image: url(images/btn_present_hover-min.png);
+}
+.controlBtn:nth-of-type(3){
+    background-image: url(images/btn_present-min.png);
+}
+.controlBtn:nth-of-type(3):hover{
+    background-image: url(images/btn_present_hover-min.png);
 }
 .btnWrapper button{
     flex-grow: 1;
