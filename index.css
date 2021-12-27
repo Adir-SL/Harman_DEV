@@ -95,7 +95,7 @@ body{
     transition: all 300ms linear 0s;
 }
 .bg{
-    background-image: url(images/bg-min.jpg);
+    background-image: url(images/bg-min.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
