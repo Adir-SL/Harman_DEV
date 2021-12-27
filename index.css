@@ -39,7 +39,6 @@ body{
     background-image: url(images/btn_car-min.png);
     background-size: cover;
     background-position: center;
-    box-shadow: 0 0 0 2px black inset;
 }
 .controlBtn:hover{
     background-image: url(images/btn_car_hover-min.png);
