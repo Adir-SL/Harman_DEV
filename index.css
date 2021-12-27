@@ -51,10 +51,10 @@ body{
     background-image: url(images/btn_present_hover-min.png);
 }
 .controlBtn:nth-of-type(3){
-    background-image: url(images/btn_present-min.png);
+    background-image: url(images/btn_reset-min.png);
 }
 .controlBtn:nth-of-type(3):hover{
-    background-image: url(images/btn_present_hover-min.png);
+    background-image: url(images/btn_reset_hover-min.png);
 }
 .btnWrapper button{
     flex-grow: 1;
