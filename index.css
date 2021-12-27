@@ -67,9 +67,10 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url(images/dots_01.png);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all 300ms linear 0s;
 }
 .bg{
     background-image: url(images/bg-min.jpg);
