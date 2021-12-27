@@ -1,6 +1,6 @@
 function sliderFunc(){
     document.getElementById("controlDot").style.transform = "rotate("+document.getElementById("controlSlider").value * 30 + "deg)";
-    document.getElementById("dotLights").style.backgroundImage = "url(images/dots_"+document.getElementById("controlSlider").value+".png)";
+    document.getElementById("dotLights").style.backgroundImage = "url(images/dots_"+document.getElementById("controlSlider").value+"-min.png)";
     resetAllHovers();
     selectHover();
 }
