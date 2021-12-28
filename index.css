@@ -131,11 +131,10 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
-    height: 50%;
+    height: 30%;
     width: 10%;
-    border: 1px solid red;
     right: 2%;
-    top: 25%;
+    top: 35%;
 }
 .bg_hover{
     background-image: url(images/hover_00-min.png);
