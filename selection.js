@@ -53,6 +53,8 @@ function closeCard(){
     document.getElementById("cardFlex").style.transform = "translateY(110%)";
     document.getElementById("contentImg").style.opacity = "0";
     document.getElementById("cardFlex").style.pointerEvents = "none";
+    tempCount = 0;
+    checkBTNs();
     
 
     // setTimeout(function(){
