@@ -123,13 +123,14 @@ body{
 }
 .logos::after{
     content: '';
-    background-image: url(images/logoAWS.png);
+    background-image: url(images/logoAWS.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
     height: 100%;
-    width: 20%;
+    width: 10%;
+    transform: scale(0.7);
     right: 0;
 }
 .bg_hover{
