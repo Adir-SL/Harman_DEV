@@ -122,7 +122,6 @@ body{
     width: 80%;
     top: 25%;
     left: 2%;
-    border: 1px solid red;
 }
 .logos::after{
     content: '';
