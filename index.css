@@ -115,7 +115,7 @@ body{
     position: absolute;
     width: 100%;
     height: 15%;
-    background-color: #ff000044;
+    /* background-color: #ff000044; */
     cursor: pointer;
 }
 .btns .actBtn:nth-of-type(2){
