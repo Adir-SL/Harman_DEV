@@ -62,7 +62,7 @@ body{
 .controller input[type=range]{
     position: absolute;
     top: 132px;
-    left: 90px;
+    left: 96px;
     width: 50px;
     opacity: 0;
     cursor: pointer;
