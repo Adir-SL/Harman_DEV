@@ -61,14 +61,14 @@ body{
 }
 .controller input[type=range]{
     position: absolute;
-    top: 155px;
-    left: 35px;
-    width: 160px;
+    top: 132px;
+    left: 90px;
+    width: 50px;
     opacity: 0;
     cursor: pointer;
 }
 .controller input[type=range]::-webkit-slider-thumb{
-    transform: scale(20);
+    transform: scale(10);
 }
 .dots{
     position: absolute;
@@ -93,6 +93,51 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 300ms linear 0s;
+}
+.btnDots{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    left: 5%;
+    top: 5%;
+    /* background-color: #ff000044; */
+}
+.btnDots .btns{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    left: 42.5%;
+    transform-origin: 50% 50%;
+    /* background-color: #ff000044; */
+}
+.btns .actBtn{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: #ff000044;
+    cursor: pointer;
+}
+.btns .actBtn:nth-of-type(2){
+    bottom: 0;
+}
+.actBtn:hover{
+    opacity: .6;
+}
+.btnDots .btns:nth-of-type(2){
+    transform: rotate(30deg);
+}
+.btnDots .btns:nth-of-type(3){
+    transform: rotate(60deg);
+}
+.btnDots .btns:nth-of-type(4){
+    transform: rotate(90deg);
+}
+.btnDots .btns:nth-of-type(5){
+    transform: rotate(120deg);
+}
+.btnDots .btns:nth-of-type(6){
+    transform: rotate(150deg);
 }
 .bg{
     background-image: url(images/bg-min.jpeg);

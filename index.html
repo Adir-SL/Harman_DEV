@@ -17,11 +17,39 @@
         </div>
         <div class="logos"></div>
         <div class="controller">
-            <div class="btnDots">
-                <div></div>
-            </div>
             <div class="dots" id="controlDot"></div>
             <div id="dotLights"></div>
+            <div class="btnDots">
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(4);"></div>
+                    <!-- <div class="actBtn" onclick="actBtnFunc(2);"></div> -->
+                </div>
+
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(5);"></div>
+                    <!-- <div class="actBtn" onclick="actBtnFunc(4);"></div> -->
+                </div>
+
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(6);"></div>
+                    <div class="actBtn" onclick="actBtnFunc(0);"></div>
+                </div>
+
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(7);"></div>
+                    <div class="actBtn" onclick="actBtnFunc(1);"></div>
+                </div>
+
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(8);"></div>
+                    <div class="actBtn" onclick="actBtnFunc(2);"></div>
+                </div>
+
+                <div class="btns">
+                    <div class="actBtn" onclick="actBtnFunc(11);" style="visibility:hidden;"></div>
+                    <div class="actBtn" onclick="actBtnFunc(3);"></div>
+                </div>
+            </div>
             <input type="range" min="0" max="8" value="5" id="controlSlider" oninput="sliderFunc();"/>
             <div class="btnWrapper">
                 <!-- <button onclick="veFunc();">Vehicle</button>

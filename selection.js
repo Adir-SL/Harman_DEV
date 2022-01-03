@@ -111,3 +111,9 @@ function checkBTNs(){
         document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
     }
 }
+
+function actBtnFunc(e){
+    // alert(e);
+    document.getElementById("controlSlider").value = e;
+    sliderFunc();
+}
