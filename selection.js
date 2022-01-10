@@ -25,7 +25,7 @@ function selectFunc(){
     if(document.getElementById("controlSlider").value == "5"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/data_lake_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
-        nextCount = 3;
+        nextCount = 0;
     }
 
     if(document.getElementById("controlSlider").value == "4"){
