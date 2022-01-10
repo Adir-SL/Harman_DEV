@@ -54,7 +54,7 @@ function veFunc(){
 
     document.getElementById("contentImg").style.backgroundImage = "url(images/vehicle_01-min.png)";
     document.getElementById("contentImg").style.opacity = "1";
-    nextCount = 4;
+    nextCount = 5;
 }
 
 function resetFunc(){
