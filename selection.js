@@ -22,6 +22,12 @@ function selectFunc(){
         nextCount = 2;
     }
 
+    if(document.getElementById("controlSlider").value == "5"){
+        document.getElementById("contentImg").style.backgroundImage = "url(images/data_lake_01-min.png)";
+        document.getElementById("contentImg").style.opacity = "1";
+        nextCount = 3;
+    }
+
     if(document.getElementById("controlSlider").value == "4"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/SW_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
