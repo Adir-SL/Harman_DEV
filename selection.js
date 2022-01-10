@@ -8,30 +8,36 @@ function selectFunc(){
     // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
 
     document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+    document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
     document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+    document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
 
     if(document.getElementById("controlSlider").value == "8"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/campaign_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 3;
+        checkCards();
     }
 
     if(document.getElementById("controlSlider").value == "7"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/vehicle_manage_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 2;
+        checkCards();
     }
 
     if(document.getElementById("controlSlider").value == "5"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/data_lake_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 0;
+        checkCards();
     }
 
     if(document.getElementById("controlSlider").value == "4"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/SW_01-min.png)";
         document.getElementById("contentImg").style.opacity = "1";
         nextCount = 2;
+        checkCards();
     }
 }
 
@@ -88,6 +94,14 @@ function prevCard(){
     }
 
     checkBTNs();
+}
+function checkCards(){
+    if(nextCount < 2){
+        document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
+        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
+        document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+    }
 }
 
 function nextCard(){
