@@ -230,7 +230,7 @@ body{
     position: absolute;
     width: 90%;
     aspect-ratio: 16 / 8;
-    border-radius: 12px;
+    border-radius: 40px;
     backdrop-filter: blur(0);
     backdrop-filter: blur(15px);
     /* transition: all 1500ms linear 0s; */
