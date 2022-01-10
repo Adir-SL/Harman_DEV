@@ -1,7 +1,7 @@
 function selectFunc(){
     // document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
-    document.getElementById("wrapper").querySelector(".bg").style.opacity = "0.1";
-    document.getElementById("wrapper").querySelector(".bg_hover").style.opacity = "0.1";
+    document.getElementById("blackDiv").style.display = "block";
+    document.getElementById("blackDiv").style.oapcity = "1";
     document.getElementById("cardDiv").querySelector("#glassCard").src = "images/card-min.png";
     document.getElementById("cardFlex").style.pointerEvents = "all";
     // document.getElementById("cardFlex").style.opacity = "1";
@@ -57,8 +57,8 @@ function closeCard(){
     document.getElementById("cardFlex").style.transform = "translateY(110%)";
     document.getElementById("contentImg").style.opacity = "0";
     document.getElementById("cardFlex").style.pointerEvents = "none";
-    document.getElementById("wrapper").querySelector(".bg").style.opacity = "1";
-    document.getElementById("wrapper").querySelector(".bg_hover").style.opacity = "1";
+    document.getElementById("blackDiv").style.oapcity = "0";
+    document.getElementById("blackDiv").style.display = "none";
     tempCount = 0;
     checkBTNs();
     
