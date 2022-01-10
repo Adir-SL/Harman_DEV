@@ -1,6 +1,5 @@
 function selectFunc(){
     // document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
-    document.getElementById("blackDiv").style.display = "block";
     document.getElementById("blackDiv").style.opacity = "1";
     document.getElementById("cardDiv").querySelector("#glassCard").src = "images/card-min.png";
     document.getElementById("cardFlex").style.pointerEvents = "all";
@@ -58,7 +57,6 @@ function closeCard(){
     document.getElementById("contentImg").style.opacity = "0";
     document.getElementById("cardFlex").style.pointerEvents = "none";
     document.getElementById("blackDiv").style.opacity = "0";
-    document.getElementById("blackDiv").style.display = "none";
     tempCount = 0;
     checkBTNs();
     
