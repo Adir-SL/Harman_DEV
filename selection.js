@@ -1,6 +1,6 @@
 function selectFunc(){
     // document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
-    document.getElementById("blackDiv").style.opacity = "1";
+    document.getElementById("blackDiv").style.opacity = "0.8";
     document.getElementById("cardDiv").querySelector("#glassCard").src = "images/card-min.png";
     document.getElementById("cardFlex").style.pointerEvents = "all";
     // document.getElementById("cardFlex").style.opacity = "1";
