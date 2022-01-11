@@ -1,3 +1,9 @@
+function checkFlows(){
+    checkMe = document.getElementById("controlSlider").value;
+    if(checkMe == "8" || checkMe == "7" || checkMe == "5" || checkMe == "4"){
+        console.log("YES");
+    }
+}
 function selectFunc(){
     // document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
     document.getElementById("blackDiv").style.opacity = "0.8";
