@@ -276,8 +276,8 @@ body{
     filter: brightness(200%);
 }
 .prevBTN{
-    opacity: 0;
-    pointer-events: none;
+    /* opacity: 0;
+    pointer-events: none; */
     right: 59px;
     background-image: url(images/btn_prev-min.png);
 }
