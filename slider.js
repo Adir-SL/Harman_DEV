@@ -3,6 +3,7 @@ function sliderFunc(){
     document.getElementById("dotLights").style.backgroundImage = "url(images/dots_"+document.getElementById("controlSlider").value+"-min.png)";
     resetAllHovers();
     selectHover();
+    checkFlows();
 }
 
 function resetAllHovers(){
