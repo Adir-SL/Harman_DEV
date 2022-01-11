@@ -41,7 +41,7 @@ body{
     background-position: center;
 }
 .controlBtn:hover{
-    filter: brightness(120%);
+    filter: hue-rotate(-25deg);
 }
 .controlBtn:nth-of-type(2){
     background-image: url(images/btn_present-min.png);
