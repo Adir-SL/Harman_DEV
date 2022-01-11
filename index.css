@@ -39,6 +39,7 @@ body{
     background-image: url(images/btn_car_hover-min.png);
     background-size: cover;
     background-position: center;
+    transition: background-image 200ms ease-in-out 0s;
 }
 .controlBtn:hover{
     filter: hue-rotate(-25deg);
