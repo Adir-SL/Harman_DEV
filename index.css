@@ -36,7 +36,7 @@ body{
 .controlBtn{
     flex-grow: 1;
     cursor: pointer;
-    background-image: url(images/btn_car-min.png);
+    background-image: url(images/btn_car_hover-min.png);
     background-size: cover;
     background-position: center;
 }
@@ -44,12 +44,14 @@ body{
     filter: hue-rotate(-25deg);
 }
 .controlBtn:nth-of-type(2){
+    pointer-events: none;
     background-image: url(images/btn_present-min.png);
 }
 .controlBtn:nth-of-type(3){
-    background-image: url(images/btn_reset-min.png);
+    background-image: url(images/btn_reset_hover-min.png);
 }
 .controlBtn:nth-of-type(2).glow{
+    pointer-events: all;
     background-image: url(images/btn_present_hover-min.png);
 }
 .btnWrapper button{
