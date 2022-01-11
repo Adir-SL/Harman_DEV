@@ -59,8 +59,10 @@ function veFunc(){
     document.getElementById("cardFlex").style.transform = "translateY(0)";
     // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
 
-    document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
-    document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+    // document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+    // document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+    document.getElementsByClassName("prevBTN")[0].classList.add("disabled");
+    document.getElementsByClassName("nextBTN")[0].classList.remove("disabled");
 
     document.getElementById("contentImg").style.backgroundImage = "url(images/vehicle_01-min.png)";
     document.getElementById("contentImg").style.opacity = "1";
@@ -107,10 +109,12 @@ function prevCard(){
 }
 function checkCards(){
     if(nextCount < 2){
-        document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
-        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
-        document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
-        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+        // document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
+        // document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
+        // document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+        // document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+        document.getElementsByClassName("prevBTN")[0].classList.add("disabled");
+        document.getElementsByClassName("nextBTN")[0].classList.add("disabled");
     }
 }
 
@@ -128,19 +132,23 @@ function nextCard(){
 
 function checkBTNs(){
     if(tempCount == 1){
-        document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
-        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+        // document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+        // document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+        document.getElementsByClassName("prevBTN")[0].classList.add("disabled");
     }else{
-        document.getElementsByClassName("prevBTN")[0].style.opacity = "1";
-        document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "all";
+        // document.getElementsByClassName("prevBTN")[0].style.opacity = "1";
+        // document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "all";
+        document.getElementsByClassName("prevBTN")[0].classList.remove("disabled");
     }
 
     if(tempCount == nextCount){
-        document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
-        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
+        // document.getElementsByClassName("nextBTN")[0].style.opacity = "0";
+        // document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "none";
+        document.getElementsByClassName("nextBTN")[0].classList.add("disabled");
     }else{
-        document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
-        document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
+        // document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+        // document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
+        document.getElementsByClassName("nextBTN")[0].classList.remove("disabled");
     }
 }
 
