@@ -1,7 +1,10 @@
 function checkFlows(){
     checkMe = document.getElementById("controlSlider").value;
     if(checkMe == "8" || checkMe == "7" || checkMe == "5" || checkMe == "4"){
-        console.log("YES");
+        // console.log("YES");
+        document.querySelectorAll(".controlBtn")[1].style.backgroundImage = "url(images/btn_present_hover-min.png)";
+    }else{
+        document.querySelectorAll(".controlBtn")[1].style.backgroundImage = "url(images/btn_present-min.png)";
     }
 }
 function selectFunc(){

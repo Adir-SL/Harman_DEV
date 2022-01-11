@@ -41,19 +41,13 @@ body{
     background-position: center;
 }
 .controlBtn:hover{
-    background-image: url(images/btn_car_hover-min.png);
+    filter: brightness(120%);
 }
 .controlBtn:nth-of-type(2){
     background-image: url(images/btn_present-min.png);
 }
-.controlBtn:nth-of-type(2):hover{
-    background-image: url(images/btn_present_hover-min.png);
-}
 .controlBtn:nth-of-type(3){
     background-image: url(images/btn_reset-min.png);
-}
-.controlBtn:nth-of-type(3):hover{
-    background-image: url(images/btn_reset_hover-min.png);
 }
 .btnWrapper button{
     flex-grow: 1;
