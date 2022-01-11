@@ -49,6 +49,9 @@ body{
 .controlBtn:nth-of-type(3){
     background-image: url(images/btn_reset-min.png);
 }
+.controlBtn:nth-of-type(2).glow{
+    background-image: url(images/btn_present_hover-min.png);
+}
 .btnWrapper button{
     flex-grow: 1;
     cursor: pointer;
