@@ -285,6 +285,10 @@ body{
     right: 14px;
     background-image: url(images/btn_next-min.png);
 }
+.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+}
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
     content:url(images/hover_02-min.png) url(images/hover_03-min.png) url(images/hover_04-min.png) url(images/hover_05-min.png) url(images/hover_06-min.png) url(images/hover_07-min.png) url(images/hover_08-min.png) url(images/hover_09-min.png);
