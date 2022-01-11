@@ -15,10 +15,12 @@ function selectFunc(){
     document.getElementById("cardFlex").style.transform = "translateY(0)";
     // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
 
-    document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
-    document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
-    document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
-    document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
+    document.getElementsByClassName("prevBTN")[0].classList.add("disabled");
+    document.getElementsByClassName("nextBTN")[0].classList.remove("disabled");
+    // document.getElementsByClassName("prevBTN")[0].style.opacity = "0";
+    // document.getElementsByClassName("prevBTN")[0].style.pointerEvents = "none";
+    // document.getElementsByClassName("nextBTN")[0].style.opacity = "1";
+    // document.getElementsByClassName("nextBTN")[0].style.pointerEvents = "all";
 
     if(document.getElementById("controlSlider").value == "8"){
         document.getElementById("contentImg").style.backgroundImage = "url(images/campaign_01-min.png)";
