@@ -163,9 +163,9 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    height: 50%;
+    height: 35%;
     width: 80%;
-    top: 25%;
+    top: 30%;
     left: 2%;
 }
 .logos::after{
@@ -175,10 +175,10 @@ body{
     background-repeat: no-repeat;
     background-position: right;
     position: absolute;
-    height: 30%;
+    height: 25%;
     width: 10%;
     right: 2%;
-    top: 35%;
+    top: 40%;
 }
 .bg_hover{
     background-image: url(images/hover_00-min.png);
