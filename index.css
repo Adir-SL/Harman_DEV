@@ -18,10 +18,10 @@ body{
 .controller{
     position: absolute;
     width: 235px;
-    height: 302px;
+    height: 342px;
     bottom: 0;
     right: 32px;
-    background-image: url(images/controller.png);
+    background-image: url(images/controller_new.png);
     background-size: cover;
     overflow: hidden;
 }
