@@ -73,6 +73,7 @@ function selectFunc(){
 }
 
 function veFunc(){
+    document.getElementById("blackDiv").style.opacity = "0.8";
     document.getElementById("cardDiv").querySelector("#glassCard").src = "images/card-min.png";
     document.getElementById("cardFlex").style.pointerEvents = "all";
     document.getElementById("cardFlex").style.transform = "translateY(0)";
