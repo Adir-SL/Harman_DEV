@@ -92,6 +92,7 @@ body{
     background-image: url(images/dots_none-min.png);
     background-size: cover;
     background-repeat: no-repeat;
+    transform: scale(0.9) translate(-3%,10%);
     transition: all 300ms linear 0s;
 }
 .btnDots{
@@ -100,6 +101,7 @@ body{
     height: 85%;
     left: 5%;
     top: 5%;
+    transform: scale(0.8) translateY(10%);
     /* background-color: #ff000044; */
 }
 .btnDots .btns{
@@ -109,7 +111,7 @@ body{
     top: 0;
     left: 42.5%;
     transform-origin: 50% 50%;
-    /* background-color: #ff000044; */
+    background-color: #ff000044;
 }
 .btns .actBtn{
     position: absolute;
