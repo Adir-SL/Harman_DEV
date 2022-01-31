@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
     --bgColor: #122834;
 }
@@ -33,6 +34,14 @@ body{
     margin-bottom: 0;
     display: flex;
     height: 58px;
+}
+.selectText{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 32px;
+    color: #ffffff;
 }
 .controlBtn{
     flex-grow: 1;
