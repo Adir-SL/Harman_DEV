@@ -70,7 +70,7 @@ function veFunc(){
 }
 
 function resetFunc(){
-    document.getElementById("selectText").innerText = "SELECT"
+    document.getElementById("selectText").innerText = "SELECT";
     document.getElementById("hovers").style.backgroundImage = "url(images/hover_00-min.png)";
     document.getElementById("hovers").querySelector("video").src = "";
     document.querySelector(".dots").style.transform = "scale(0.9) translate(-1%,28%) rotate(-55deg)";
