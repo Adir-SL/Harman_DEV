@@ -3,6 +3,8 @@
     --bgColor: #122834;
 }
 body{
+    -webkit-user-select: none;
+    user-select: none;
     overflow: hidden;
 }
 #wrapper{
