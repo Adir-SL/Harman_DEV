@@ -1,5 +1,33 @@
 function checkFlows(){
     checkMe = document.getElementById("controlSlider").value;
+    if(checkMe == "0"){
+        document.getElementById("selectText").innerText = "SIGNING";
+    }
+    if(checkMe == "1"){
+        document.getElementById("selectText").innerText = "HA / LB";
+    }
+    if(checkMe == "2"){
+        document.getElementById("selectText").innerText = "DISTRIBUTION";
+    }
+    if(checkMe == "3"){
+        document.getElementById("selectText").innerText = "PRODUCT DATA";
+    }
+    if(checkMe == "4"){
+        document.getElementById("selectText").innerText = "SW MANAGEMENT";
+    }
+    if(checkMe == "5"){
+        document.getElementById("selectText").innerText = "DATA LAKE";
+    }
+    if(checkMe == "6"){
+        document.getElementById("selectText").innerText = "UPDATE GENERATION";
+    }
+    if(checkMe == "7"){
+        document.getElementById("selectText").innerText = "VEHICLE MANAGEMENT";
+    }
+    if(checkMe == "8"){
+        document.getElementById("selectText").innerText = "CAMPAIGN MANAGEMENT";
+    }
+
     if(checkMe == "8" || checkMe == "7" || checkMe == "5" || checkMe == "4"){
         document.querySelectorAll(".controlBtn")[1].classList.add("glow");
     }else{
