@@ -35,13 +35,10 @@ function checkFlows(){
     }
 }
 function selectFunc(){
-    // document.getElementById("cardDiv").querySelector("video").src = "images/card.webm";
     document.getElementById("blackDiv").style.opacity = "0.8";
     document.getElementById("cardDiv").querySelector("#glassCard").src = "images/card-min.png";
     document.getElementById("cardFlex").style.pointerEvents = "all";
-    // document.getElementById("cardFlex").style.opacity = "1";
     document.getElementById("cardFlex").style.transform = "translateY(0)";
-    // document.getElementById("cardDiv").style.backdropFilter = "blur(15px)";
 
     document.getElementsByClassName("prevBTN")[0].classList.add("disabled");
     document.getElementsByClassName("nextBTN")[0].classList.remove("disabled");
