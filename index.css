@@ -62,13 +62,14 @@ body{
 .controller input[type=range]{
     position: absolute;
     top: 132px;
-    left: 96px;
+    left: 86px;
     width: 50px;
     opacity: 0;
     cursor: pointer;
+    transform: translate(-1%,200%);
 }
 .controller input[type=range]::-webkit-slider-thumb{
-    transform: scale(9);
+    transform: scale(8.5);
 }
 .dots{
     position: absolute;
