@@ -1,5 +1,5 @@
 function sliderFunc(){
-    document.getElementById("controlDot").style.transform = "rotate("+document.getElementById("controlSlider").value * 30 + "deg)";
+    document.getElementById("controlDot").style.transform = "scale(0.9) translate(-1%,28%) rotate("+document.getElementById("controlSlider").value * 30 + "deg)";
     document.getElementById("dotLights").style.backgroundImage = "url(images/dots_"+document.getElementById("controlSlider").value+"-min.png)";
     resetAllHovers();
     selectHover();
