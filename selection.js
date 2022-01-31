@@ -72,7 +72,7 @@ function veFunc(){
 function resetFunc(){
     document.getElementById("hovers").style.backgroundImage = "url(images/hover_00-min.png)";
     document.getElementById("hovers").querySelector("video").src = "";
-    document.querySelector(".dots").style.transform = "rotate(-55deg)";
+    document.querySelector(".dots").style.transform = "scale(0.9) translate(-1%,28%) rotate(-55deg)";
     document.getElementById("dotLights").style.backgroundImage = "url(images/dots_none-min.png)";
 }
 
